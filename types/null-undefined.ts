@@ -3,7 +3,7 @@
     // struct nullchecks
 
     // let isActive: (boolean|undefined) = undefined;
-    let isActive: number = null;
+    let isActive: null;
 
     // console.log(nada)
 
