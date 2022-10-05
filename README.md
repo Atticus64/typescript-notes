@@ -17,11 +17,3 @@ npm install
 ```bash
 tsc -w # npm run watch 
 ```
-
-### Cargar archivo de js en index.html
-
-```html
-
-<script src="ruta/archivo.js">
-
-```
