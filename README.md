@@ -4,6 +4,10 @@
 
 ## Bases de Typescript
 
+Requirements:
+
+* Typescript installed
+
 ### Observar los cambios de typescript y transformar a js
 
 ```
