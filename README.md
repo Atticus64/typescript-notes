@@ -6,12 +6,16 @@
 
 Requirements:
 
-* Typescript installed
+* Typescript instalado de manera global o instalar las dependencias
+
+```
+npm install
+```
 
 ### Observar los cambios de typescript y transformar a js
 
-```
-tsc -w
+```bash
+tsc -w # npm run watch 
 ```
 
 ### Cargar archivo de js en index.html

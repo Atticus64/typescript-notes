@@ -1,45 +1,33 @@
 (() => {
 
-    // Tipos
-    const batman: string = 'Bruce';
-    const superman: string = 'Clark';
-  
-    const existe: boolean = false;
-  
-    // Tuplas
-    const parejaHeroes: [string, string] = [batman,superman];
-    const villano: [string, number, boolean] = ['Lex Lutor',5,true];
-  
-    // Arreglos
-    const aliados: string[] = ['Mujer Maravilla','Acuaman','San', 'Flash'];
-  
-    //Enumeraciones
-    enum fuerza {
-      acuaman = 0,
-      batman = 1,
-      flash = 5,
-      superman = 100,
+    const a: number = 10; 
+
+    console.log(a);
+    
+    const msg: string = 'Hola Mundo';
+    
+    const pilot = {
+        name: 'Captain Falcon',
+        age: 33
     }
-    const fuerzaFlash: fuerza = fuerza.flash;
-    const fuerzaSuperman: fuerza = fuerza.superman;
-    const fuerzaBatman: fuerza = fuerza.batman;
-    const fuerzaAcuaman: fuerza = fuerza.acuaman;
-  
-    // Retorno de funciones
-    function activar_batiseñal(): string {
-      return 'activada';
-    }
-  
-    function pedir_ayuda(): void {
-      console.log('Auxilio!!!');
-    }
-  
-    // Aserciones de Tipo
-    const poder: any = '100';
-    const largoDelPoder: number = (<string>poder).length;
-    console.log( largoDelPoder );
-  
-  
-  })()
-  
-  
+    
+    pilot.age = 90
+    
+    console.log(pilot.age + 1)
+    
+    console.log(msg)
+    
+    // No uses el type any 
+    
+    let anything: any;
+    anything = {}
+    anything = []
+    anything = 3
+
+    sayHello('Tux')
+
+})()
+
+function sayHello( msg: string ) {
+    console.log(msg)
+}
